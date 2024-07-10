@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failedtestcase.IAnnotationExample"></listener>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" name="C:/Users/user/IdeaProjects/Maven_Project">
+        <classes>
+            <class name="testng.assertion.SoftAssertExample"/>
+        </classes>
+    </test>
+</suite>
